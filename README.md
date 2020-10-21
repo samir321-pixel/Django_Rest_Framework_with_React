@@ -5,7 +5,7 @@
 First, clone the repository to your local machine:
 
 ```bash
-git clone git@github.com:samir321-pixel/Django_Rest_Framework_with_React.git
+git clone git@github.com:samir321-pixel/Django-Registration.git
 ```
 
 
@@ -21,6 +21,12 @@ pip install -r requirements.txt
 ```bash
 python manage.py migrate
 ```
+## Create Superuser:
+
+```bash
+python manage.py createsuperuser
+```
+Add Your Name, Email & Password.
 
 ## Finally, run the development server:
 
